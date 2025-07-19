@@ -80,6 +80,14 @@ Now you can clone the repository using the SSH URL for your personal account.
 git clone git@github.com-personal:ZhipengMei/p8s-InfraKit.git
 ```
 
+### 4. Set Up the Local Environment
+
+To set up the local Kubernetes cluster, run the following script:
+
+```bash
+./local/scripts/setup-kind.sh
+```
+
 ### 4. Install Pre-Commit Hooks
 
 This project uses pre-commit hooks to enforce code quality and consistency.
